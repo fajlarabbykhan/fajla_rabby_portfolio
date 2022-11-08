@@ -13,18 +13,19 @@ const Projects = () => {
                 </p>
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectItem
-                        title='Auto Parts'
-                        backgroundImg={parts}
-                        projectUrl='/property'
-                        tech='React JS'
-                    />
-                    <ProjectItem
                         title='Talent Recruiter '
                         backgroundImg={talent}
-                        projectUrl='/crypto'
+                        projectUrl='/talentrecruiter'
                         tech='React JS'
 
                     />
+                    <ProjectItem
+                        title='Auto Parts'
+                        backgroundImg={parts}
+                        projectUrl='/AutoParts'
+                        tech='React JS'
+                    />
+
                 </div>
             </div>
         </div>

@@ -1,9 +1,7 @@
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import { Link } from 'react-router-dom';
 import ContactImg from '../assets/contact.jpg'
 const Contact = () => {
     return (
@@ -54,16 +52,14 @@ const Contact = () => {
                                         </div>
                                     </a>
 
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <AiOutlineMail />
-                                    </div>
-                                    <Link to='/resume'>
-                                        <a>
-                                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                                <BsFillPersonLinesFill />
-                                            </div>
-                                        </a>
-                                    </Link>
+
+                                    <a href='https://drive.google.com/file/d/1VxJhbRFUjM7tK_VzaBcRcFrYledhj9_1/view?usp=sharing'
+                                        target='_blank' rel='noreferrer'>
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <BsFillPersonLinesFill />
+                                        </div>
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -73,9 +69,9 @@ const Contact = () => {
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4'>
                             <form
-                                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
-                                method='POST'
-                                encType='multipart/form-data'
+                                action="https://formspree.io/f/mknekrbe"
+                                method="POST"
+                                id="form"
                             >
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
@@ -129,16 +125,16 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='flex justify-center py-12'>
-                    <Link to='/'>
-                        <a>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <HiOutlineChevronDoubleUp
-                                    className='text-[#5651e5]'
-                                    size={30}
-                                />
-                            </div>
-                        </a>
-                    </Link>
+
+                    <a href='#home'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <HiOutlineChevronDoubleUp
+                                className='text-[#5651e5]'
+                                size={30}
+                            />
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
