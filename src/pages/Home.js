@@ -1,53 +1,12 @@
 import React from 'react';
+import Banner from '../components/Banner';
+import About from '../components/About';
 
 const Home = () => {
     return (
         <div className=''>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
-            <h1>This is home page</h1>
+            <Banner></Banner>
+            <About></About>
         </div>
     );
 };
